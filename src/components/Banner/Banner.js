@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Footer from '../Footer/Footer';
 import twitter from '../../images/tw.png'
 import twitter_1 from '../../images/tw_1.png'
 import facebook from '../../images/fb.png'
@@ -62,6 +63,7 @@ class Banner extends Component {
                         </a>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
